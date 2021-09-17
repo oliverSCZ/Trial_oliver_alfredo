@@ -1,0 +1,14 @@
+
+@media (orientation: portrait)  {
+    #header {
+        background-color: aqua;
+    } 
+}
+
+/*
+@media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+}
+*/
