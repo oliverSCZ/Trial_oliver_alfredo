@@ -4,7 +4,12 @@
         background-color: aqua;
     } 
 }
-
+@media (max-width: 200px)
+ { 
+    #box2 {
+        background-color: blueviolet;
+    }
+ }
 /*
 @media (max-width: 600px) {
     header {
@@ -12,3 +17,30 @@
     }
 }
 */
+.nav-link {
+    display: flex; 
+    
+  }
+.header-img{
+    display: flex;
+}
+#Introduction{
+    display: flex;
+    flex-wrap: wrap;
+}
+#video{
+    display: flex;
+}
+#box1{
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+}
+#box2{
+    background-color: rgb(0, 255, 115);
+    width: 50%;
+    height: 50%;
+    display: inline-flex;
+    flex-direction: column;
+}
