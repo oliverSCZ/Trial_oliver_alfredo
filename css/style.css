@@ -1,10 +1,9 @@
-
 @media (orientation: portrait)  {
     #header {
         background-color: aqua;
     } 
 }
-@media (max-width: 200px)
+@media (max-width: 100px)
  { 
     #box2 {
         background-color: blueviolet;
@@ -33,8 +32,9 @@
 }
 #box1{
     background-color: orangered;
-    width: 50%;
+    width: 35vw;
     height: 50%;
+    display: flex;
     flex-direction: column;
 }
 #box2{
@@ -44,3 +44,25 @@
     display: inline-flex;
     flex-direction: column;
 }
+@media (max-height: 800px) { 
+        p{
+      font-size:16px;
+        }
+    }
+@media (max-width: 650px) {
+        #Introduction {
+          margin-top: 80px;
+        }
+      }
+ ul {
+        width: 35vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }   
+    
+       @media (max-width: 650px) {
+         #ul {
+           flex-direction: column;
+         }
+      }
